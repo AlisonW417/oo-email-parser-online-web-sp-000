@@ -12,8 +12,7 @@ class EmailAddressParser
     @email_addresses = email_addresses
   end 
   
-  def parse 
-    self.split(/s|,/)
+  def parse
     @@all << self 
   end 
   
