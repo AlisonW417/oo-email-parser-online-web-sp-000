@@ -6,14 +6,14 @@
 class EmailAddressParser
   attr_accessor :email_addresses
   
-  @all = []
+  @@all = []
   
   def initialize(email_addresses)
     @email_addresses = email_addresses
   end 
   
   def parse 
-    @all << @email_addresses
+    @@all << @email_addresses
   end 
   
   
