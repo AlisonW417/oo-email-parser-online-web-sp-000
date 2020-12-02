@@ -10,11 +10,10 @@ class EmailAddressParser
   
   def initialize(email_addresses)
     @email_addresses = email_addresses
-    @all << @email_addresses
   end 
   
   def parse 
-    
+    @all << @email_addresses
   end 
   
   
