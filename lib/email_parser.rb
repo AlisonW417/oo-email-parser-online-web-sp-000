@@ -9,7 +9,8 @@ class EmailAddressParser
   @all = []
   
   def initialize(email_addresses)
-    
+    @email_addresses = email_addresses
+    @all << self 
   end 
   
   def parse 
